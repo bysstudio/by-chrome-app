@@ -151,9 +151,6 @@ Chrome Power [chrome-power-app](https://github.com/zmzimpl/chrome-power-app)
 
 ###  [Solana] 6fxBpA6Y8JgaGeJLPAZ4CwqoRwLbHFqr4qtDwRHLRawa
 
-# 内核定制开发教程
-![image](https://github.com/user-attachments/assets/c5e1adec-3750-4b60-8155-681619ce1cb0)
-
 # 加入QQ群
 ![image](https://github.com/user-attachments/assets/e649031a-17a0-43c3-b787-af83bed42d5e)
 
