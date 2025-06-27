@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/5a1c5bbf-ed3e-44a9-8832-83250e04ed14)
+
+
 ## Chrome 多开管理工具，支持独立窗口，http/socks5 代理，窗口排列，同步器等
 #### 同步器仅支持简单操作与win版本，其他的平台同步器功能需要移植C++文件。
 #### 本项目一个人维护，时间与能力有限，更多功能期待各路大神加入完善。
