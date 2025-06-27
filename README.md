@@ -96,6 +96,8 @@ UI框架文档：https://element-plus.org/zh-CN/
 ```bash
 npm install
 ```
+### Visual Studio Installer 环境配置
+![image](https://github.com/user-attachments/assets/537394b9-50b8-47b2-8366-b0c041c0619e)
 
 ### 要先编译同步器window-api的C++代码 编译模块并集成到electron
 ```bash
