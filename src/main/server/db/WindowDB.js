@@ -545,7 +545,8 @@ export class WindowDB {
             name: `ads-${count + num}`, //环境名称
             status: 0, //环境状态
             fingerprint: JSON.stringify(generateFingerprint("window", "")),
-            profile: item
+            profile: item,
+            dir: fullPath
           };
           num = num + 1;
           await dbDao("window").insert(data);
