@@ -9,6 +9,7 @@
         <p>
           本软件按"现状"提供，开发者/提供者不对其适用性、可靠性、准确性、完整性及稳定性作任何明示或暗示的保证。用户需自行承担使用本软件可能产生的全部风险及后果。</p>
       </section>
+      
 
       <section>
         <h3>2. 责任限制</h3>
@@ -22,7 +23,10 @@
         <p>[Ethereum] 0x9de3cae5047bcd624fe545161ef7022de868b768</p>
         <p>[Solana] 6fxBpA6Y8JgaGeJLPAZ4CwqoRwLbHFqr4qtDwRHLRawa</p>
       </section>
-
+ <section>
+        <h3>4. 源码链接</h3>
+        <p>https://github.com/bysstudio/by-chrome-app</p>
+      </section>
 
     </div>
   </el-scrollbar>
