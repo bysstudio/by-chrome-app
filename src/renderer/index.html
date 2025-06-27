@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>BY多窗口同步器</title>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- 这里的bug，要禁用，不然生产环境无法访问web api -->
+  <!--  <meta-->
+  <!--    http-equiv="Content-Security-Policy"-->
+  <!--    content="-->
+  <!--    default-src 'self' http://localhost:*;-->
+  <!--    connect-src 'self' http://localhost:* ws://localhost:*;-->
+  <!--    script-src 'self' 'unsafe-inline';-->
+  <!--    style-src 'self' 'unsafe-inline'-->
+  <!--  ">-->
+</head>
+
+<body style="overflow: hidden">
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

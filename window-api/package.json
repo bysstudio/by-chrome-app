@@ -1,0 +1,8 @@
+{
+  "name": "window-api",
+  "version": "1.0.0",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^7.1.1"
+  }
+}

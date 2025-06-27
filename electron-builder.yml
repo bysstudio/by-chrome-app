@@ -1,0 +1,63 @@
+appId: com.electron.app
+productName: by-app
+directories:
+  buildResources: build
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - "!window-api/*.cc"       # 明确排除 C++ 源码
+  - "!window-api/chrome_data"  # 明确排除缓存目录
+  - "!window-api/*.gyp"       # 排除
+  - "!window-api/*.js"       # 排除
+  - "!window-api/*.txt"       # 排除
+  - "!window-api/*.json"       # 排除
+  - '!electron.vite.config.{js,ts,mjs,cjs}'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
+  - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
+
+asarUnpack:
+  - "**/*.node"    # 解压所有 node 原生模块
+  - "**/window-api/**"
+  - resources/**
+  - node_modules/sqlite3
+
+# 新增重建命令配置
+nodeGypRebuild: false # 改为手动控制
+
+win:
+  target:
+    - nsis  # 安装程序
+    - portable  # 生成便携版
+
+  artifactName: "${productName}-${version}-portable.${ext}"
+  executableName: by-app
+nsis:
+  artifactName: ${name}-${version}-setup.${ext}
+  shortcutName: ${productName}
+  uninstallDisplayName: ${productName}   # 删除显示的名称
+  createDesktopShortcut: always        # 创建快捷方式
+  oneClick: false                    # 禁用一键安装
+  allowToChangeInstallationDirectory: true  # 允许用户修改安装目录
+mac:
+  entitlementsInherit: build/entitlements.mac.plist
+  extendInfo:
+    - NSCameraUsageDescription: Application requests access to the device's camera.
+    - NSMicrophoneUsageDescription: Application requests access to the device's microphone.
+    - NSDocumentsFolderUsageDescription: Application requests access to the user's Documents folder.
+    - NSDownloadsFolderUsageDescription: Application requests access to the user's Downloads folder.
+  notarize: false
+dmg:
+  artifactName: ${name}-${version}.${ext}
+linux:
+  target:
+    - AppImage
+    - snap
+    - deb
+  maintainer: electronjs.org
+  category: Utility
+appImage:
+  artifactName: ${name}-${version}.${ext}
+npmRebuild: false
+#publish:
+#  provider: generic
+#  url: https://example.com/auto-updates
