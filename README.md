@@ -3,6 +3,9 @@
 #### 本项目一个人维护，时间与能力有限，更多功能期待各路大神加入完善。
 #### 此软件遵循AGPL协议，因此如果你想对其进行修改发布，请保持开源。
 
+---
+## 安装包下载
+### 点击下载 [by-chrome-app](https://github.com/bysstudio/by-chrome-app/releases/tag/main)
 
 ---
 
