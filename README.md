@@ -1,8 +1,14 @@
+![image](https://github.com/user-attachments/assets/5a1c5bbf-ed3e-44a9-8832-83250e04ed14)
+
+
 ## Chrome 多开管理工具，支持独立窗口，http/socks5 代理，窗口排列，同步器等
 #### 同步器仅支持简单操作与win版本，其他的平台同步器功能需要移植C++文件。
 #### 本项目一个人维护，时间与能力有限，更多功能期待各路大神加入完善。
 #### 此软件遵循AGPL协议，因此如果你想对其进行修改发布，请保持开源。
 
+---
+## 安装包下载
+### 点击下载 [by-chrome-app](https://github.com/bysstudio/by-chrome-app/releases/tag/main)
 
 ---
 
@@ -144,3 +150,7 @@ Chrome Power [chrome-power-app](https://github.com/zmzimpl/chrome-power-app)
 ###  [Ethereum] 0x9de3cae5047bcd624fe545161ef7022de868b768
 
 ###  [Solana] 6fxBpA6Y8JgaGeJLPAZ4CwqoRwLbHFqr4qtDwRHLRawa
+
+# 加入QQ群
+![image](https://github.com/user-attachments/assets/e649031a-17a0-43c3-b787-af83bed42d5e)
+
